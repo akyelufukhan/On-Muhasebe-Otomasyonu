@@ -12,7 +12,7 @@
 - **Modern Arayüz**: Sade, estetik ve işlevsel bir tasarım ile kolay kullanım.  
 
 ## 🛠️ Kullanılan Teknolojiler  
-- **Frontend**: .NET Framework  
+- **Frontend**: .NET Framework, DevExpress, GunaUI  
 - **Veritabanı**: MSSQL.   
 
 ## 🚀 Kurulum ve Kullanım  
