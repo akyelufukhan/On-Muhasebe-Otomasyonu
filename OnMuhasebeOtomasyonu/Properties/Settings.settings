@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OnMuhasebeOtomasyonu.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OnMuhasebeConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-B4M28EN\SQLEXPRESS;Initial Catalog=OnMuhasebe;Integrated Security=True;TrustServerCertificate=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-B4M28EN\SQLEXPRESS;Initial Catalog=OnMuhasebe;Integrated Security=True;TrustServerCertificate=True</Value>
+    </Setting>
+    <Setting Name="OnMuhasebeConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-43F3JRK\SQLEXPRESS;Initial Catalog=OnMuhasebe;Integrated Security=True;Encrypt=True;TrustServerCertificate=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-43F3JRK\SQLEXPRESS;Initial Catalog=OnMuhasebe;Integrated Security=True;Encrypt=True;TrustServerCertificate=True</Value>
+    </Setting>
+    <Setting Name="cs1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=</Value>
+    </Setting>
+    <Setting Name="cs_Sunucu" Type="System.String" Scope="User">
+      <Value Profile="(Default)">;</Value>
+    </Setting>
+    <Setting Name="cs2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Initial Catalog=</Value>
+    </Setting>
+    <Setting Name="cs_Veritabani" Type="System.String" Scope="User">
+      <Value Profile="(Default)">;</Value>
+    </Setting>
+    <Setting Name="cs3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User ID=</Value>
+    </Setting>
+    <Setting Name="cs_UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">;</Value>
+    </Setting>
+    <Setting Name="cs4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Password=</Value>
+    </Setting>
+    <Setting Name="cs_Pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">;</Value>
+    </Setting>
+    <Setting Name="cs5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TrustServerCertificate=True</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OnMuhasebeConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-43F3JRK\SQLEXPRESS;Initial Catalog=OnMuhasebe;User ID=YeniKullanici;Password=123;TrustServerCertificate=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-43F3JRK\SQLEXPRESS;Initial Catalog=OnMuhasebe;User ID=YeniKullanici;Password=123;TrustServerCertificate=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

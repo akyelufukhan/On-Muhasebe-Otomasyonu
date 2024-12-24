@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetler" targetNamespace="http://tempuri.org/DataSetler.xsd" xmlns:mstns="http://tempuri.org/DataSetler.xsd" xmlns="http://tempuri.org/DataSetler.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="OnMuhasebeConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="OnMuhasebeConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OnMuhasebeOtomasyonu.Properties.Settings.GlobalReference.Default.OnMuhasebeConnectionString2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetler" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetler" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetler">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SatisFaturasi" msprop:Generator_RowEvHandlerName="SatisFaturasiRowChangeEventHandler" msprop:Generator_RowDeletedName="SatisFaturasiRowDeleted" msprop:Generator_RowDeletingName="SatisFaturasiRowDeleting" msprop:Generator_RowEvArgName="SatisFaturasiRowChangeEvent" msprop:Generator_TablePropName="SatisFaturasi" msprop:Generator_RowChangedName="SatisFaturasiRowChanged" msprop:Generator_UserTableName="SatisFaturasi" msprop:Generator_RowChangingName="SatisFaturasiRowChanging" msprop:Generator_RowClassName="SatisFaturasiRow" msprop:Generator_TableClassName="SatisFaturasiDataTable" msprop:Generator_TableVarName="tableSatisFaturasi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="urun_kodu" msprop:Generator_ColumnPropNameInTable="urun_koduColumn" msprop:Generator_ColumnPropNameInRow="urun_kodu" msprop:Generator_UserColumnName="urun_kodu" msprop:Generator_ColumnVarNameInTable="columnurun_kodu" type="xs:string" minOccurs="0" />
+              <xs:element name="urun_adi" msprop:Generator_ColumnPropNameInTable="urun_adiColumn" msprop:Generator_ColumnPropNameInRow="urun_adi" msprop:Generator_UserColumnName="urun_adi" msprop:Generator_ColumnVarNameInTable="columnurun_adi" type="xs:string" minOccurs="0" />
+              <xs:element name="urun_birim" msprop:Generator_ColumnPropNameInTable="urun_birimColumn" msprop:Generator_ColumnPropNameInRow="urun_birim" msprop:Generator_UserColumnName="urun_birim" msprop:Generator_ColumnVarNameInTable="columnurun_birim" type="xs:string" minOccurs="0" />
+              <xs:element name="miktar" msprop:Generator_ColumnPropNameInTable="miktarColumn" msprop:Generator_ColumnPropNameInRow="miktar" msprop:Generator_UserColumnName="miktar" msprop:Generator_ColumnVarNameInTable="columnmiktar" type="xs:decimal" minOccurs="0" />
+              <xs:element name="urun_satisf" msprop:Generator_ColumnPropNameInTable="urun_satisfColumn" msprop:Generator_ColumnPropNameInRow="urun_satisf" msprop:Generator_UserColumnName="urun_satisf" msprop:Generator_ColumnVarNameInTable="columnurun_satisf" type="xs:decimal" minOccurs="0" />
+              <xs:element name="urun_satisv" msprop:Generator_ColumnPropNameInTable="urun_satisvColumn" msprop:Generator_ColumnPropNameInRow="urun_satisv" msprop:Generator_UserColumnName="urun_satisv" msprop:Generator_ColumnVarNameInTable="columnurun_satisv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="toplam" msprop:Generator_ColumnPropNameInTable="toplamColumn" msprop:Generator_ColumnPropNameInRow="toplam" msprop:Generator_UserColumnName="toplam" msprop:Generator_ColumnVarNameInTable="columntoplam" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VW_FATURA" msprop:Generator_RowEvHandlerName="VW_FATURARowChangeEventHandler" msprop:Generator_RowDeletedName="VW_FATURARowDeleted" msprop:Generator_RowDeletingName="VW_FATURARowDeleting" msprop:Generator_RowEvArgName="VW_FATURARowChangeEvent" msprop:Generator_TablePropName="VW_FATURA" msprop:Generator_RowChangedName="VW_FATURARowChanged" msprop:Generator_RowChangingName="VW_FATURARowChanging" msprop:Generator_TableClassName="VW_FATURADataTable" msprop:Generator_RowClassName="VW_FATURARow" msprop:Generator_TableVarName="tableVW_FATURA" msprop:Generator_UserTableName="VW_FATURA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CARIKODU" msprop:Generator_ColumnPropNameInRow="CARIKODU" msprop:Generator_ColumnPropNameInTable="CARIKODUColumn" msprop:Generator_ColumnVarNameInTable="columnCARIKODU" msprop:Generator_UserColumnName="CARIKODU" type="xs:string" minOccurs="0" />
+              <xs:element name="cari_adi" msprop:Generator_ColumnPropNameInRow="cari_adi" msprop:Generator_ColumnPropNameInTable="cari_adiColumn" msprop:Generator_ColumnVarNameInTable="columncari_adi" msprop:Generator_UserColumnName="cari_adi" type="xs:string" minOccurs="0" />
+              <xs:element name="cari_vergidaire" msprop:Generator_ColumnPropNameInRow="cari_vergidaire" msprop:Generator_ColumnPropNameInTable="cari_vergidaireColumn" msprop:Generator_ColumnVarNameInTable="columncari_vergidaire" msprop:Generator_UserColumnName="cari_vergidaire" type="xs:string" minOccurs="0" />
+              <xs:element name="cari_vergino" msprop:Generator_ColumnPropNameInRow="cari_vergino" msprop:Generator_ColumnPropNameInTable="cari_verginoColumn" msprop:Generator_ColumnVarNameInTable="columncari_vergino" msprop:Generator_UserColumnName="cari_vergino" type="xs:string" minOccurs="0" />
+              <xs:element name="cari_adres" msprop:Generator_ColumnPropNameInRow="cari_adres" msprop:Generator_ColumnPropNameInTable="cari_adresColumn" msprop:Generator_ColumnVarNameInTable="columncari_adres" msprop:Generator_UserColumnName="cari_adres" type="xs:string" minOccurs="0" />
+              <xs:element name="FATURANO" msprop:Generator_ColumnPropNameInRow="FATURANO" msprop:Generator_ColumnPropNameInTable="FATURANOColumn" msprop:Generator_ColumnVarNameInTable="columnFATURANO" msprop:Generator_UserColumnName="FATURANO" type="xs:string" minOccurs="0" />
+              <xs:element name="TARIHI" msprop:Generator_ColumnPropNameInRow="TARIHI" msprop:Generator_ColumnPropNameInTable="TARIHIColumn" msprop:Generator_ColumnVarNameInTable="columnTARIHI" msprop:Generator_UserColumnName="TARIHI" type="xs:string" minOccurs="0" />
+              <xs:element name="ACIKLAMA" msprop:Generator_ColumnPropNameInRow="ACIKLAMA" msprop:Generator_ColumnPropNameInTable="ACIKLAMAColumn" msprop:Generator_ColumnVarNameInTable="columnACIKLAMA" msprop:Generator_UserColumnName="ACIKLAMA" type="xs:string" minOccurs="0" />
+              <xs:element name="GENELTOPLAM" msprop:Generator_ColumnPropNameInRow="GENELTOPLAM" msprop:Generator_ColumnPropNameInTable="GENELTOPLAMColumn" msprop:Generator_ColumnVarNameInTable="columnGENELTOPLAM" msprop:Generator_UserColumnName="GENELTOPLAM" type="xs:string" minOccurs="0" />
+              <xs:element name="urun_kodu" msprop:Generator_ColumnPropNameInRow="urun_kodu" msprop:Generator_ColumnPropNameInTable="urun_koduColumn" msprop:Generator_ColumnVarNameInTable="columnurun_kodu" msprop:Generator_UserColumnName="urun_kodu" type="xs:string" minOccurs="0" />
+              <xs:element name="urun_adi" msprop:Generator_ColumnPropNameInRow="urun_adi" msprop:Generator_ColumnPropNameInTable="urun_adiColumn" msprop:Generator_ColumnVarNameInTable="columnurun_adi" msprop:Generator_UserColumnName="urun_adi" type="xs:string" minOccurs="0" />
+              <xs:element name="urun_birim" msprop:Generator_ColumnPropNameInRow="urun_birim" msprop:Generator_ColumnPropNameInTable="urun_birimColumn" msprop:Generator_ColumnVarNameInTable="columnurun_birim" msprop:Generator_UserColumnName="urun_birim" type="xs:string" minOccurs="0" />
+              <xs:element name="BIRIMFIYAT" msprop:Generator_ColumnPropNameInRow="BIRIMFIYAT" msprop:Generator_ColumnPropNameInTable="BIRIMFIYATColumn" msprop:Generator_ColumnVarNameInTable="columnBIRIMFIYAT" msprop:Generator_UserColumnName="BIRIMFIYAT" type="xs:string" minOccurs="0" />
+              <xs:element name="KDV" msprop:Generator_ColumnPropNameInRow="KDV" msprop:Generator_ColumnPropNameInTable="KDVColumn" msprop:Generator_ColumnVarNameInTable="columnKDV" msprop:Generator_UserColumnName="KDV" type="xs:string" minOccurs="0" />
+              <xs:element name="MIKTAR" msprop:Generator_ColumnPropNameInRow="MIKTAR" msprop:Generator_ColumnPropNameInTable="MIKTARColumn" msprop:Generator_ColumnVarNameInTable="columnMIKTAR" msprop:Generator_UserColumnName="MIKTAR" type="xs:string" minOccurs="0" />
+              <xs:element name="TOPLAM" msprop:Generator_ColumnPropNameInRow="TOPLAM" msprop:Generator_ColumnPropNameInTable="TOPLAMColumn" msprop:Generator_ColumnVarNameInTable="columnTOPLAM" msprop:Generator_UserColumnName="TOPLAM" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
