@@ -1,20 +1,29 @@
-# Ön Muhasebe Otomasyonu
+# Ön Muhasebe Otomasyonu  
 
-## Projenin Amacı
-Bu proje, küçük ve orta ölçekli işletmelerin muhasebe işlemlerini kolaylaştırmak amacıyla geliştirilmiş bir ön muhasebe otomasyonudur. Sistem, gelir-gider takibi, fatura yönetimi, stok kontrolü gibi temel muhasebe işlemlerini hızlı ve kullanıcı dostu bir şekilde gerçekleştirmenizi sağlar.
+## 🎯 Projenin Amacı  
+Ön Muhasebe Otomasyonu, küçük ve orta ölçekli işletmelerin muhasebe süreçlerini dijitalleştirerek zamandan tasarruf etmelerine ve iş süreçlerini daha verimli bir şekilde yönetmelerine olanak tanır. Gelir-gider takibi, fatura yönetimi ve stok kontrolü gibi temel muhasebe işlemleri, kullanıcı dostu bir arayüz ve güvenli bir altyapı ile sunulmaktadır.  
 
-## Özellikler
-- **Gelir-Gider Yönetimi**: Gelir ve giderlerinizi detaylı bir şekilde kaydedin ve raporlayın.
-- **Fatura Takibi**: Fatura bilgilerini ekleyin, düzenleyin ve geçmiş faturalara erişim sağlayın.
-- **Stok Yönetimi**: Stok giriş-çıkışlarını takip ederek ürünlerinizi daha verimli yönetin.
-- **Kullanıcı Dostu Arayüz**: Sade ve anlaşılır bir arayüz ile işlemlerinizi kolayca gerçekleştirin.
-- **Güvenli Giriş Sistemi**: Kullanıcı doğrulama sistemi ile hesap güvenliği sağlayın.
+## ✨ Özellikler  
+- **Gelir ve Gider Takibi**: Tüm gelir ve giderlerinizi kaydedin ve analiz edin.  
+- **Fatura Yönetimi**: Faturalarınızı düzenleyin, kaydedin ve görüntüleyin.  
+- **Stok Yönetimi**: Ürünlerin stok giriş-çıkışlarını takip ederek envanterinizi kontrol altında tutun.  
+- **Raporlama**: Gelir-gider raporları, stok durumu ve işlem geçmişini kolayca görüntüleyin.  
+- **Güvenli Kullanıcı Girişi**: Hesaplarınıza yalnızca yetkili kullanıcıların erişmesini sağlayan giriş sistemi.  
+- **Modern Arayüz**: Sade, estetik ve işlevsel bir tasarım ile kolay kullanım.  
 
-## Kullanılan Teknolojiler
-- **Backend**: [Belirttiğiniz teknolojiler, örn: Node.js, Django]
-- **Frontend**: [Belirttiğiniz teknolojiler, örn: React, Angular]
-- **Veritabanı**: [Belirttiğiniz veritabanı, örn: MySQL, MongoDB]
-- **Diğer Araçlar**: [Kullandığınız diğer teknolojiler]
+## 🛠️ Kullanılan Teknolojiler  
+- **Frontend**: .NET Framework, DevExpress, GunaUI  
+- **Veritabanı**: MSSQL.   
 
-## Kurulum
-Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edin:
+## 🚀 Kurulum ve Kullanım  
+
+### Gerekli Bağımlılıklar  
+Bu projeyi çalıştırmak için aşağıdaki yazılımların sisteminizde yüklü olduğundan emin olun:  
+- [Microsoft SQL Server]  
+- [Visual Studio] 
+
+### Kurulum Adımları  
+1. **Repository'yi klonlayın**
+2. **.bak uzantılı dosyayı SSMS üzerinden geri yükleyin**
+3. **.sln uzantılı çözümü visual studio üzerinde çalıştırın**
+4. **Giriş ekranı üzerinden bağlantı ayarlarını yapın**
