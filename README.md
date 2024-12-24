@@ -24,3 +24,6 @@ Bu projeyi çalıştırmak için aşağıdaki yazılımların sisteminizde yükl
 
 ### Kurulum Adımları  
 1. **Repository'yi klonlayın**
+2. **.bak uzantılı dosyayı SSMS üzerinden geri yükleyin**
+3. **.sln uzantılı çözümü visual studio üzerinde çalıştırın**
+4. **Giriş ekranı üzerinden bağlantı ayarlarını yapın**
