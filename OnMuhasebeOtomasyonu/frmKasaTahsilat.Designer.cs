@@ -256,7 +256,7 @@
             this.txtTutar.Properties.Appearance.Options.UseFont = true;
             this.txtTutar.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txtTutar.Properties.MaskSettings.Set("mask", "c");
-            this.txtTutar.Properties.UseMaskAsDisplayFormat = true;
+            this.txtTutar.Properties.UseMaskAsDisplayFormat = false;
             this.txtTutar.Size = new System.Drawing.Size(161, 22);
             this.txtTutar.TabIndex = 24;
             // 

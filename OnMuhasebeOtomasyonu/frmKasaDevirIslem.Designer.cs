@@ -44,10 +44,10 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.txtKasaKodu = new DevExpress.XtraEditors.ButtonEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.txtBelgeNo = new DevExpress.XtraEditors.TextEdit();
             this.btnVazgec = new System.Windows.Forms.Button();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.txtBelgeNo = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTutar.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtAciklama.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
@@ -58,9 +58,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtKasaKodu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBelgeNo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtBelgeNo.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl7
@@ -88,7 +88,7 @@
             this.txtTutar.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txtTutar.Properties.MaskSettings.Set("MaskManagerSignature", "allowNull=False");
             this.txtTutar.Properties.MaskSettings.Set("mask", "c");
-            this.txtTutar.Properties.UseMaskAsDisplayFormat = true;
+            this.txtTutar.Properties.UseMaskAsDisplayFormat = false;
             this.txtTutar.Size = new System.Drawing.Size(161, 22);
             this.txtTutar.TabIndex = 24;
             // 
@@ -237,6 +237,15 @@
             this.groupControl1.TabIndex = 14;
             this.groupControl1.Text = "Temel Bilgiler";
             // 
+            // txtBelgeNo
+            // 
+            this.txtBelgeNo.Location = new System.Drawing.Point(79, 33);
+            this.txtBelgeNo.Name = "txtBelgeNo";
+            this.txtBelgeNo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtBelgeNo.Properties.Appearance.Options.UseFont = true;
+            this.txtBelgeNo.Size = new System.Drawing.Size(161, 22);
+            this.txtBelgeNo.TabIndex = 20;
+            // 
             // btnVazgec
             // 
             this.btnVazgec.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -273,15 +282,6 @@
             this.groupControl2.Size = new System.Drawing.Size(499, 82);
             this.groupControl2.TabIndex = 13;
             // 
-            // txtBelgeNo
-            // 
-            this.txtBelgeNo.Location = new System.Drawing.Point(79, 33);
-            this.txtBelgeNo.Name = "txtBelgeNo";
-            this.txtBelgeNo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtBelgeNo.Properties.Appearance.Options.UseFont = true;
-            this.txtBelgeNo.Size = new System.Drawing.Size(161, 22);
-            this.txtBelgeNo.TabIndex = 20;
-            // 
             // frmKasaDevirIslem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -309,9 +309,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBelgeNo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.txtBelgeNo.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

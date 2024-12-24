@@ -301,7 +301,7 @@
             this.txtAlisKdv.Name = "txtAlisKdv";
             this.txtAlisKdv.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txtAlisKdv.Properties.MaskSettings.Set("mask", "f");
-            this.txtAlisKdv.Properties.UseMaskAsDisplayFormat = true;
+            this.txtAlisKdv.Properties.UseMaskAsDisplayFormat = false;
             this.txtAlisKdv.Size = new System.Drawing.Size(113, 20);
             this.txtAlisKdv.TabIndex = 6;
             // 
@@ -383,7 +383,7 @@
             this.txtAlisFiyat.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.txtAlisFiyat.Properties.MaskSettings.Set("MaskManagerType", typeof(DevExpress.Data.Mask.NumericMaskManager));
             this.txtAlisFiyat.Properties.MaskSettings.Set("mask", "c");
-            this.txtAlisFiyat.Properties.UseMaskAsDisplayFormat = true;
+            this.txtAlisFiyat.Properties.UseMaskAsDisplayFormat = false;
             this.txtAlisFiyat.Size = new System.Drawing.Size(113, 20);
             this.txtAlisFiyat.TabIndex = 6;
             // 
